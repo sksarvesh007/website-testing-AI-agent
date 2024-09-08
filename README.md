@@ -2,6 +2,8 @@
 
 This project is a web-based tool that analyzes uploaded images and generates detailed test cases using Groq's AI capabilities. The application is built with [Gradio](https://gradio.app/) for user interaction, [LangChain](https://langchain.com/) for AI-powered document and text processing, and the Groq API for model interactions.
 
+![1725784578139](image/README/1725784578139.png)
+
 ## Features
 
 - **Image Upload and Encoding**: Upload any image, and the application will resize it and encode it into a base64 format to be used in the model.
