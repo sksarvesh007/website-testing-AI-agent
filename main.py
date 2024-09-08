@@ -95,7 +95,6 @@ demo = gr.Interface(
     ],
     outputs=gr.Markdown(label="Test Cases and their Description", height=500),
     title="Test Cases Generator",
-    description="Upload a website screenshot, and get a detailed description and test cases for its features."
 )
 
 demo.launch(share=True)
