@@ -29,7 +29,7 @@ llm = ChatGroq(
     max_retries=2,
     groq_api_key=groq_api_key
 )
-extra_text = "List out the features of the website and provide a detailed description of each feature. , User additional query : "
+extra_text = "List out the features of the website and provide a detailed description of each features and the general overview os the website about the service which it provides and other stuff , User additional query : "
 def analyze_image(image, question):
     """Analyze the uploaded image and generate a feature list."""
     base64_image = encode_image(image)
