@@ -1,3 +1,9 @@
+---
+title: website-testing-ai-agent
+app_file: main.py
+sdk: gradio
+sdk_version: 4.37.2
+---
 # Test Case Generator with Groq and LangChain
 
 This project is a web-based tool that analyzes uploaded images and generates detailed test cases using Groq's AI capabilities. The application is built with [Gradio](https://gradio.app/) for user interaction, [LangChain](https://langchain.com/) for AI-powered document and text processing, and the Groq API for model interactions.
