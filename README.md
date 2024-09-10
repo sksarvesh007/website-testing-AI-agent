@@ -36,6 +36,7 @@ This project is a web-based tool that analyzes uploaded images and generates det
 
    ```bash
    GROQ_API_KEY=your_groq_api_key
+   GEMINI_API_KEY=your_gemini_api_key
    ```
 4. **Download Gradio and LangChain dependencies**:
    Ensure Gradio, PIL, and Groq API dependencies are installed.
