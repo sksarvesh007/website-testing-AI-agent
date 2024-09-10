@@ -42,7 +42,7 @@ This project is a web-based tool that analyzes uploaded images and generates det
    Ensure Gradio, PIL, and Groq API dependencies are installed.
 
    ```bash
-   pip install gradio pillow langchain
+   pip install -r requirements.txt
    ```
 
 ## Usage
