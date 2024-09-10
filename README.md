@@ -32,7 +32,7 @@ This project is a web-based tool that analyzes uploaded images and generates det
    pip install -r requirements.txt
    ```
 3. **Set up environment variables**:
-   Create a `.env` file in the root of the project and add your Groq API key:
+   Create a `.env` file in the root of the project and add your Groq API key and Gemini api keys as well:
 
    ```bash
    GROQ_API_KEY=your_groq_api_key
@@ -73,5 +73,5 @@ This project is a web-based tool that analyzes uploaded images and generates det
 ## How It Works
 
 1. **Image Encoding**: The uploaded image is resized and converted into a base64 string.
-2. **Groq API Call**: The encoded image and user query are sent to Groq's model (`llava-v1.5-7b-4096-preview`) to generate a list of features in the image.
+2. **Groq API Call**: The encoded image and user query are sent to Google's (`Gemini pro model`) then to Groq's model (`llama3.1 model`) to generate a list of features in the image.
 3. **Feature Test Case Generation**: Based on the feature list, the model generates a detailed guide on how to test each feature, which is then displayed in the Gradio interface.
